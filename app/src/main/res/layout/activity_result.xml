@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/dateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date (YYYY-MM-DD)" />
+
+    <Button
+        android:id="@+id/searchByDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search By Date" />
+
+    <EditText
+        android:id="@+id/courseNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Course Name" />
+
+    <Button
+        android:id="@+id/searchByCourseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search By Course" />
+
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Results will appear here" />
+</LinearLayout>
